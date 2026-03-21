@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surendra Gurung | Creative Designer & Video Editor</title>
+    <!-- Modern Typography: Inter for body, Poppins for Headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Remix Icons for Modern Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Surendra<span>.</span></a>
+            <div class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="btn btn-primary nav-cta">Let's Talk</a>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <i class="ri-menu-line"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <button class="close-menu" id="close-menu"><i class="ri-close-line"></i></button>
+        <div class="mobile-nav-links">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#portfolio" class="mobile-link">Portfolio</a>
+            <a href="#contact" class="btn btn-primary w-full shadow-btn">Let's Talk</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="section hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1 class="hero-title reveal-up delay-1">Hello! I’m <br><span class="text-accent">Surendra Gurung</span>
+                </h1>
+                <h2 class="hero-subtitle reveal-up delay-2">I create powerful 3D animations, professional video edits,
+                    and modern graphic designs that help brands stand out.</h2>
+                <p class="hero-text reveal-up delay-3">Creative visual designer based in Kathmandu helping businesses
+                    and creators turn ideas into high-quality digital content.</p>
+                <div class="hero-cta reveal-up delay-4">
+                    <a href="#portfolio" class="btn btn-primary shadow-btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div class="hero-socials reveal-up delay-4">
+                    <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual reveal-right delay-2">
+                <div class="hero-illustration-wrapper">
+                    <!-- Professional Cartoon-style Illustration Placeholder -->
+                    <img src="https://images.unsplash.com/photo-1626785776985-042d75354202?q=80&w=1200&auto=format&fit=crop"
+                        alt="Hero Illustration" class="hero-image">
+
+                    <div class="floating-card c-1 style-glass">
+                        <div class="card-icon"><i class="ri-blender-line"></i></div>
+                        <span>3D Animation</span>
+                    </div>
+                    <div class="floating-card c-2 style-dark">
+                        <div class="card-icon"><i class="ri-video-chat-fill"></i></div>
+                        <span>Video Editor</span>
+                    </div>
+                    <div class="floating-card c-3 style-accent">
+                        <div class="card-icon"><i class="ri-pen-nib-line"></i></div>
+                        <span>Graphic Design</span>
+                    </div>
+                    <div class="floating-card c-4">
+                        <div class="card-icon"><i class="ri-drag-move-line"></i></div>
+                        <span>Motion Graphics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section about bg-grey" id="about">
+        <div class="container about-grid">
+            <div class="about-visual reveal-left">
+                <div class="about-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?q=80&w=1000&auto=format&fit=crop"
+                        alt="Surendra at workspace" class="about-image">
+                </div>
+            </div>
+            <div class="about-content">
+                <h3 class="section-label reveal-up">About Me</h3>
+                <h2 class="section-title reveal-up">Passionate about digital creativity.</h2>
+                <p class="about-text reveal-up">
+                    Hi, I'm Surendra. I've always been driven by the power of visual storytelling. From crafting
+                    immersive 3D worlds to editing high-impact promotional videos, my mission is simple: to help brands
+                    and content creators create professional, eye-catching visual content that converts.
+                </p>
+                <p class="about-text reveal-up">
+                    I believe in clean design, seamless motion, and a detail-oriented approach. Whether you need a slick
+                    YouTube edit or a modern brand identity, I bring both technical skill and creative vision to every
+                    project.
+                </p>
+
+                <div class="about-highlights reveal-up">
+                    <div class="highlight-item">
+                        <i class="ri-focus-2-line"></i>
+                        <span>Creative & Detail-Focused</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="ri-star-smile-line"></i>
+                        <span>Professional Quality Work</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="ri-rocket-2-line"></i>
+                        <span>Fast & Reliable Delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h3 class="section-label">Services</h3>
+                <h2 class="section-title">What I Can Do For You</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card reveal-up delay-1">
+                    <div class="service-icon"><i class="ri-box-3-line"></i></div>
+                    <h4 class="service-title">3D Animation</h4>
+                    <p class="service-desc">Immersive product renders and 3D motion graphics.</p>
+                </div>
+                <div class="service-card reveal-up delay-2">
+                    <div class="service-icon"><i class="ri-film-line"></i></div>
+                    <h4 class="service-title">Video Editing</h4>
+                    <p class="service-desc">Professional editing for any platform and audience.</p>
+                </div>
+                <div class="service-card reveal-up delay-3">
+                    <div class="service-icon"><i class="ri-pen-nib-line"></i></div>
+                    <h4 class="service-title">Graphic Design</h4>
+                    <p class="service-desc">Modern, clean visual identities and marketing assets.</p>
+                </div>
+                <div class="service-card reveal-up delay-4">
+                    <div class="service-icon"><i class="ri-drag-move-line"></i></div>
+                    <h4 class="service-title">Motion Graphics</h4>
+                    <p class="service-desc">Dynamic animations to explain concepts and engage.</p>
+                </div>
+                <div class="service-card reveal-up delay-1">
+                    <div class="service-icon"><i class="ri-youtube-line"></i></div>
+                    <h4 class="service-title">YouTube Video Editing</h4>
+                    <p class="service-desc">High-retention edits built for content creators.</p>
+                </div>
+                <div class="service-card reveal-up delay-2">
+                    <div class="service-icon"><i class="ri-instagram-line"></i></div>
+                    <h4 class="service-title">Social Content Design</h4>
+                    <p class="service-desc">Scroll-stopping graphics for modern social media.</p>
+                </div>
+                <div class="service-card reveal-up delay-3">
+                    <div class="service-icon"><i class="ri-quill-pen-line"></i></div>
+                    <h4 class="service-title">Logo Design</h4>
+                    <p class="service-desc">Memorable and minimalist brand marks.</p>
+                </div>
+                <div class="service-card reveal-up delay-4">
+                    <div class="service-icon"><i class="ri-advertisement-line"></i></div>
+                    <h4 class="service-title">Promo Video Editing</h4>
+                    <p class="service-desc">High-converting ads for products and services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio bg-dark text-white" id="portfolio">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h3 class="section-label">Portfolio</h3>
+                <h2 class="section-title">My Creative Work</h2>
+            </div>
+
+            <div class="portfolio-filters reveal-up">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="3d">3D Animation</button>
+                <button class="filter-btn" data-filter="video">Video Editing</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                <button class="filter-btn" data-filter="motion">Motion Graphics</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item reveal-up" data-category="3d">
+                    <div class="portfolio-img-wrapper">
+                        <img src="tech-visualization.jpg" alt="3D Product Render">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">3D Animation</span>
+                            <h4 class="portfolio-title">Tech Product Visualization</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="portfolio-item reveal-up delay-1" data-category="video">
+                    <div class="portfolio-img-wrapper">
+                        <img src="brand-anthem.jpg" alt="Video Editing Timeline">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Video Editing</span>
+                            <h4 class="portfolio-title">Brand Anthem Video</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="portfolio-item reveal-up delay-2" data-category="graphic">
+                    <div class="portfolio-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=800&auto=format&fit=crop"
+                            alt="Graphic Design Branding">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Graphic Design</span>
+                            <h4 class="portfolio-title">Startup Rebranding</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="portfolio-item reveal-up" data-category="motion">
+                    <div class="portfolio-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop"
+                            alt="Motion Graphics">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Motion Graphics</span>
+                            <h4 class="portfolio-title">App Explainer Animation</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="portfolio-item reveal-up delay-1" data-category="3d">
+                    <div class="portfolio-img-wrapper">
+                        <img src="abstract-concept.jpg" alt="Abstract 3D Art">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">3D Animation</span>
+                            <h4 class="portfolio-title">Brand Abstract Concept</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="portfolio-item reveal-up delay-2" data-category="video">
+                    <div class="portfolio-img-wrapper">
+                        <img src="dynamic-vlogs.jpg" alt="YouTube Editing">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Video Editing</span>
+                            <h4 class="portfolio-title">Dynamic Vlogs</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Me Section -->
+    <section class="section why-choose">
+        <div class="container why-grid">
+            <div class="why-content">
+                <h3 class="section-label reveal-up">Why Choose Me?</h3>
+                <h2 class="section-title reveal-up">Built on trust and quality.</h2>
+            </div>
+            <div class="features-list">
+                <div class="feature-item reveal-up delay-1">
+                    <i class="ri-check-line"></i>
+                    <span>High-quality creative visuals</span>
+                </div>
+                <div class="feature-item reveal-up delay-2">
+                    <i class="ri-check-line"></i>
+                    <span>Clean and modern editing style</span>
+                </div>
+                <div class="feature-item reveal-up delay-3">
+                    <i class="ri-check-line"></i>
+                    <span>On-time delivery</span>
+                </div>
+                <div class="feature-item reveal-up delay-1">
+                    <i class="ri-check-line"></i>
+                    <span>Creative thinking</span>
+                </div>
+                <div class="feature-item reveal-up delay-2">
+                    <i class="ri-check-line"></i>
+                    <span>Easy communication</span>
+                </div>
+                <div class="feature-item reveal-up delay-3">
+                    <i class="ri-check-line"></i>
+                    <span>Professional work process</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials bg-grey">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h3 class="section-label">Testimonials</h3>
+                <h2 class="section-title">What Clients Say</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal-up delay-1">
+                    <div class="stars">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p class="test-text">"Surendra's video editing took our YouTube channel to the next level. His cuts
+                        are clean, pacing is perfect, and communication is top-notch."</p>
+                    <div class="test-author">
+                        <div class="author-info">
+                            <h4>James L.</h4>
+                            <p>Content Creator</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal-up delay-2">
+                    <div class="stars">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p class="test-text">"We needed a high-quality 3D animation for our new product launch. The visuals
+                        delivered were beyond our expectations. Highly professional!"</p>
+                    <div class="test-author">
+                        <div class="author-info">
+                            <h4>Sarah M.</h4>
+                            <p>Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal-up delay-3">
+                    <div class="stars">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p class="test-text">"A truly creative graphic designer. Surendra redesigned our brand identity, and
+                        the result is modern, sleek, and highly professional."</p>
+                    <div class="test-author">
+                        <div class="author-info">
+                            <h4>David R.</h4>
+                            <p>Startup Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container contact-grid">
+            <div class="contact-info reveal-left">
+                <h3 class="section-label">Contact</h3>
+                <h2 class="section-title">Let’s Work Together</h2>
+                <p class="contact-text">If you’re looking for a creative designer or video editor for your project, feel
+                    free to contact me. I’d love to work with you.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="ri-phone-line"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>1234567890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="ri-mail-line"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>grgsurendra24@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="ri-map-pin-line"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Lazimpat, Kathmandu, Nepal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper reveal-right">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Needed</label>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select a project type...</option>
+                            <option value="3d-animation">3D Animation & Modeling</option>
+                            <option value="video-editing">Video Editing</option>
+                            <option value="graphic-design">Graphic Design</option>
+                            <option value="motion-graphics">Motion Graphics</option>
+                            <option value="other">Other / Custom Project</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-full shadow-btn">Send Message <i
+                            class="ri-send-plane-fill"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>Surendra Gurung</h2>
+                <p>Creative Designer / Video Editor / 3D Artist</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+                <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+                <a href="#" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Surendra Gurung. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
